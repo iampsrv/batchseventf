@@ -30,3 +30,10 @@ variable "instance_type" {
   default = "t2.micro"
 }
 
+resource "aws_s3_bucket" "example" {
+  bucket = "hellloookodkokdpas"
+  tags = {
+    Name        = "My terraform bucket"
+    Environment = "Dev"
+  }
+}
