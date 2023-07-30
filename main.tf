@@ -9,11 +9,15 @@ resource "aws_instance" "web1" {
   instance_type = var.instance_type
 
   tags = {
-    Name = "HelloWorld"
+    Name = "ec2tfgithub"
   }
 }
 
+variable "AWS_ACCESS_KEY" {
+}
 
+variable "AWS_SECRET_KEY" {
+}
 
 
 variable "ami_id" {
