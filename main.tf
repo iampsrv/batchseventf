@@ -13,11 +13,11 @@ resource "aws_instance" "web1" {
   }
 }
 
-variable "AWS_ACCESS_KEY" {
-}
+#variable "AWS_ACCESS_KEY" {
+#}
 
-variable "AWS_SECRET_KEY" {
-}
+#variable "AWS_SECRET_KEY" {
+#}
 
 
 variable "ami_id" {
