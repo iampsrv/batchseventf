@@ -9,7 +9,7 @@ resource "aws_instance" "web1" {
   instance_type = var.instance_type
 
   tags = {
-    Name = "ec2tfgithub"
+    Name = "ec2tfgithub-v2"
   }
 }
 
